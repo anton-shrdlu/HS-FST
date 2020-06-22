@@ -1,4 +1,4 @@
-module Nfst
+module Fst
     ( GenTrans(S)
     , states
     , sigma

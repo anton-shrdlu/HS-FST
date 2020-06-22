@@ -22,7 +22,7 @@ module HSfst
 
 import Data.Maybe (mapMaybe, fromJust)
 import Data.List (nub, inits)
-import Nfst
+import Fst
 
 inAlph :: [a] -> [(Maybe a, Maybe a)]
 inAlph as = [(a,b) | a <- Nothing : map Just as, b <- Nothing : map Just as]
